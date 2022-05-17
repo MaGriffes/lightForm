@@ -1,0 +1,39 @@
+.container,
+.layout {
+  width: 100vw;
+  height: 100vh;
+  .header,
+  .footer {
+    background: #fff;
+  }
+  .header {
+    .sk-header {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .sk-header-logo {
+        flex-shrink: 0;
+        width: 205px;
+        height: 60px;
+        > img {
+          width: 120px;
+          height: 60px;
+          object-fit: contain;
+        }
+      }
+      .sk-header-menu {
+        flex: 1;
+        text-align: right;
+      }
+    }
+  }
+  .content {
+    background: #fafafa;
+    .content-sider {
+      background: #c8cad1;
+    }
+    .content-container{
+        margin-left: 56px;
+    }
+  }
+}

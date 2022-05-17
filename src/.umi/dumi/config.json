@@ -1,0 +1,45 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "link-hub-lib of React",
+          "meta": {
+            "order": null
+          }
+        }
+      ],
+      "/design-form": [
+        {
+          "path": "/design-form",
+          "title": "DesignForm",
+          "meta": {}
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "path": "/design-form",
+        "title": "Design-form"
+      }
+    ]
+  },
+  "title": "link-hub",
+  "logo": "/favicon.png",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {},
+  "exportStatic": {}
+}

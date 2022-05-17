@@ -1,0 +1,39 @@
+.sortFormItem-active,.sortFormItem-normal{
+  position: relative;
+  padding: 8px 12px;
+  border: 1px dashed royalblue;
+  >.ant-form-item{
+    margin-bottom: 0;
+    .ant-form-item-control{
+      flex:1;
+      flex-shrink: 0;
+    }
+  }
+  .deleteIcon{
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    line-height: 16px;
+    padding: 2px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    >img{
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+    }
+  }
+}
+.sortFormItem-normal{
+   border: 1px dashed #ccc;
+  .deleteIcon{
+    display: none;
+  }
+  &:hover{
+    .deleteIcon{
+      display: block;
+    }
+  }
+}
